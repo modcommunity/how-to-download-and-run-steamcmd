@@ -192,4 +192,4 @@ That's it! By now, you should be able to automatically create and update applica
 
 If you have any questions or suggestions on how to improve this guide, please reply to the topic [here](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190)! This guide will be worked and improved on over time.
 
-Join our [Discord server](https://discord.moddingcommunuity.com)!
+Join our [Discord server](https://discord.moddingcommunity.com)!
