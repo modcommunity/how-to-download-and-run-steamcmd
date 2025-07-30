@@ -1,6 +1,14 @@
+<div align="center">
+
+![Banner](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/banner.png)
+
+</div>
+
 A guide on how to download and run [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) on both Linux and Windows.
 
 SteamCMD is a [CLI tool](https://aws.amazon.com/what-is/cli/) that allows users to download applications from [Steam](https://store.steampowered.com/). This is often used for downloading dedicated server files in games such as Counter-Strike, [Left 4 Dead 2](https://store.steampowered.com/app/550/Left_4_Dead_2/), [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/), [Rust](https://store.steampowered.com/app/252490/Rust/), and many more!
+
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd-2025/190)
 
 ## Table Of Contents
 * [Downloading & Running SteamCMD](#downloading--running-steamcmd)
@@ -24,9 +32,9 @@ Instructions on downloading and extracting SteamCMD on Windows may be found [her
 
 You should now see a `steamcmd.exe` executable file that you can run.
 
-![SteamCmd Files](./images/steamcmd_win_dirlist.png)
+![SteamCmd Files](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_win_dirlist.png)
 
-![SteamCmd Windows Start](./images/steamcmd_win_start.png)
+![SteamCmd Windows Start](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_win_start.png)
 
 ### Linux
 Instructions on downloading and extracting SteamCMD on Linux may be found [here](https://developer.valvesoftware.com/wiki/SteamCMD#Linux).
@@ -40,7 +48,7 @@ sudo apt install -y lib32gcc-s1 lib32stdc++6 curl tar
 
 **NOTE** - If you do not have `sudo` installed, you will need to login as root via the `su -` command and execute commands throughout this guide without using `sudo` at the beginning.
 
-![SteamCMD Packages](./images/steamcmd_lin_packages.png)
+![SteamCMD Packages](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_lin_packages.png)
 
 While it isn't necessarily *required*, it is also recommended you create a separate user to run SteamCMD and game servers you plan on running if any.
 
@@ -57,7 +65,7 @@ sudo useradd -m -d /home/apps -g apps -s /bin/bash apps
 sudo su apps -
 ```
 
-![SteamCMD New User](./images/steamcmd_lin_newuser.png)
+![SteamCMD New User](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_lin_newuser.png)
 
 Next, you'll want to create a directory to store the contents from the `steamcmd_linux.tar.gz` file.
 
@@ -70,7 +78,7 @@ mkdir ~/steamcmd
 cd ~/steamcmd
 ```
 
-![SteamCMD New Directory](./images/steamcmd_lin_newdir.png)
+![SteamCMD New Directory](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_lin_newdir.png)
 
 Now, you'll want to download the [`steamcmd_linux.tar.gz`](https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz) file and extract it. I recommend using the `curl` or `wget` commands to download the file and `tar` to extract it. In this guide, we'll be using a one-liner that utilizes `curl` and `tar`.
 
@@ -80,7 +88,7 @@ curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.g
 
 If the command above was successful, you should see a new `steamcmd.sh` file when listing files in the new directory using a command such as `ls -l`.
 
-![SteamCMD Download & Extract](./images/steamcmd_lin_dl.png)
+![SteamCMD Download & Extract](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_lin_dl.png)
 
 You can now run the new `steamcmd.sh` program using the following command which'll also update the SteamCMD installation.
 
@@ -88,7 +96,7 @@ You can now run the new `steamcmd.sh` program using the following command which'
 ./steamcmd.sh
 ```
 
-![SteamCMD Start](./images/steamcmd_lin_start.png)
+![SteamCMD Start](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/steamcmd_lin_start.png)
 
 ## Downloading Application Files
 Once you've launched SteamCMD, the first thing you'll need to do is set the directory where to install the application's files via the `force_install_dir` command.
@@ -182,4 +190,6 @@ $STEAM_CMD_LOC/steamcmd.sh +force_install_dir $INSTALL_DIR +login "$STEAM_USER" 
 ## Conclusion
 That's it! By now, you should be able to automatically create and update applications through SteamCMD using script files or by executing commands one-by-one.
 
-If you have any questions or suggestions on how to improve this guide, please reply to the topic [here](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190)!
+If you have any questions or suggestions on how to improve this guide, please reply to the topic [here](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190)! This guide will be worked and improved on over time.
+
+Join our [Discord server](https://discord.moddingcommunuity.com)!
