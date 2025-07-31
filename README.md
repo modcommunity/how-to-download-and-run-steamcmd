@@ -1,14 +1,8 @@
-<div align="center">
-
-![Banner](https://github.com/modcommunity/how-to-download-and-run-steamcmd/raw/main/images/banner.png)
-
-</div>
-
 A guide on how to download and run [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) on both Linux and Windows.
 
 SteamCMD is a [CLI tool](https://aws.amazon.com/what-is/cli/) that allows users to download applications from [Steam](https://store.steampowered.com/). This is often used for downloading dedicated server files in games such as Counter-Strike, [Left 4 Dead 2](https://store.steampowered.com/app/550/Left_4_Dead_2/), [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/), [Rust](https://store.steampowered.com/app/252490/Rust/), and many more!
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd-2025/190)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-download-run-steamcmd/)
 
 ## Table Of Contents
 * [Downloading & Running SteamCMD](#downloading--running-steamcmd)
@@ -190,6 +184,6 @@ $STEAM_CMD_LOC/steamcmd.sh +force_install_dir $INSTALL_DIR +login "$STEAM_USER" 
 ## Conclusion
 That's it! By now, you should be able to automatically create and update applications through SteamCMD using script files or by executing commands one-by-one.
 
-If you have any questions or suggestions on how to improve this guide, please reply to the topic [here](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd/190)! This guide will be worked and improved on over time.
+If you have any questions or suggestions on how to improve this guide, please reply to the topic [here](https://forum.moddingcommunity.com/t/how-to-download-run-steamcmd-2025/505)! This guide will be worked and improved on over time.
 
 Join our [Discord server](https://discord.moddingcommunity.com)!
