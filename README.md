@@ -2,7 +2,7 @@ A guide on how to download and run [SteamCMD](https://developer.valvesoftware.co
 
 SteamCMD is a [CLI tool](https://aws.amazon.com/what-is/cli/) that allows users to download applications from [Steam](https://store.steampowered.com/). This is often used for downloading dedicated server files in games such as Counter-Strike, [Left 4 Dead 2](https://store.steampowered.com/app/550/Left_4_Dead_2/), [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/), [Rust](https://store.steampowered.com/app/252490/Rust/), and many more!
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-download-run-steamcmd/)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://moddingcommunity.com/blog/how-to-download-run-steamcmd/)
 
 ## Table Of Contents
 * [Downloading & Running SteamCMD](#downloading--running-steamcmd)
